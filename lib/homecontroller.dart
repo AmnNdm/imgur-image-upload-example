@@ -29,7 +29,7 @@ class HomeController extends GetxController {
 
   uploadImage(File image) async {
     var request =
-        http.MultipartRequest(Constants().post, Uri.parse(Constants().url));
+        http.MultipartRequest(Constants().post, Uri.parse(Constants().posturl));
     request.headers["Authorization"] = Constants().clientID;
     var file = await http.MultipartFile.fromPath(
       "image",
