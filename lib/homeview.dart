@@ -40,9 +40,16 @@ class MyHomePage extends GetView<HomeController> {
                         fit: BoxFit.contain,
                       ));
           }, controller.picture),
+          const Spacer(),
+          const Text(
+            "List of Images",
+            style: TextStyle(
+                color: Colors.blue, fontWeight: FontWeight.w500, fontSize: 18),
+          ),
+          const Spacer(),
           ObxValue((RxList rxList) {
             return SizedBox(
-              height: 200,
+              height: 180,
               child: rxList.isEmpty
                   ? null
                   : ListView.builder(
@@ -50,9 +57,16 @@ class MyHomePage extends GetView<HomeController> {
                       itemCount: rxList.length,
                       itemBuilder: (context, index) {
                         return ListTile(
+                          dense: true,
                           visualDensity: VisualDensity.compact,
-                          leading: Text("${index + 1}."),
-                          title: Text(rxList[index]),
+                          leading: Text(
+                            "${index + 1}.",
+                            style: TextStyle(fontSize: 16),
+                          ),
+                          title: Text(
+                            rxList[index],
+                            style: TextStyle(fontSize: 16),
+                          ),
                           onTap: () {
                             controller.getImage(index);
                           },
