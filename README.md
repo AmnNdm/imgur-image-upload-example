@@ -4,7 +4,7 @@ A simple Flutter project to learn how http multipart files work. Imgur open API 
 
 ## Getting Started
 
-This is a single screen app with a button for chosing/uploading image, image preview, and a scrollable list of ids of images uploaded that are clickable to preview those images.
+This is a single screen app with a button for chosing/uploading image, uploaded image's preview, and a scrollable list of ids of images uploaded that are clickable to preview those images.
 
 ![Screenshot_20220208-170947](https://user-images.githubusercontent.com/95464163/153132874-24efda1b-fb5d-4808-bc75-9898f227552c.png)
 
