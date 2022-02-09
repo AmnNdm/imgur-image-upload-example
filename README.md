@@ -9,7 +9,7 @@ This is a single screen app with a button for chosing/uploading image, uploaded 
 ![Screenshot_20220208-170947](https://user-images.githubusercontent.com/95464163/153132874-24efda1b-fb5d-4808-bc75-9898f227552c.png)
 
 ### Imgur API
-[Register your application on Imgur](https://apidocs.imgur.com/#c85c9dfc-7487-4de2-9ecd-66f727cf3139) and then replace "id" in lib/constants.dart with your client ID.
+[Register your application on Imgur](https://apidocs.imgur.com/#intro) and then replace "id" in lib/constants.dart with your client ID.
 
 ### Packages used:
 - [get - for state management](https://pub.dev/packages/get)
