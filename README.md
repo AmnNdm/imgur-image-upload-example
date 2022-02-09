@@ -22,5 +22,6 @@ inside the manifest tag
 - uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
 - uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
 - uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"
+
 inside the application tag:
 - android:requestLegacyExternalStorage="true"
